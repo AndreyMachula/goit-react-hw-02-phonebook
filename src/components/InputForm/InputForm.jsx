@@ -5,7 +5,7 @@ import { Form, Input } from './styledInputForm';
 class InputForm extends Component {
   state = {
     name: '',
-    phone: '',
+    number: '',
   };
 
   handleInput = e => {
@@ -19,7 +19,7 @@ class InputForm extends Component {
           const newUser = this.props.handleSubmit(e, this.state);
 
           if (newUser) {
-            this.setState({ name: '', phone: '' });
+            this.setState({ name: '', number: '' });
           }
         }}
       >
@@ -37,11 +37,11 @@ class InputForm extends Component {
         <h2>Phone</h2>
         <Input
           type="tel"
-          name="phone"
+          name="number"
           pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
           title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
           placeholder="+38 (099) 999-99-99"
-          value={this.state.phone}
+          value={this.state.number}
           required
           onChange={this.handleInput}
         />
