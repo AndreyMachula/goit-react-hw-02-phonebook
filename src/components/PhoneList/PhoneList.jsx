@@ -16,7 +16,7 @@ function PhoneList({ contacts, deleteUser }) {
                 {item.name}: {item.number}
               </p>
               <Button type="button" onClick={() => deleteUser(item.id)}>
-                x
+                Delete
               </Button>
             </ListItem>
           ))}

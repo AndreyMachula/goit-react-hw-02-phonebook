@@ -62,15 +62,4 @@ export const Button = styled.button`
   text-transform: capitalize;
   animation: change-color 3s linear 3 alternate;
   cursor: pointer;
-  @keyframes change-color {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.3);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
 `;
