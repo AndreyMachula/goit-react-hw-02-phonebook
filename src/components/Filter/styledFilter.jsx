@@ -15,7 +15,7 @@ color: gray;
   letter-spacing: 1px;
   border-radius: 5px;
   border: none;
-  box-shadow: -5px 0px 10px -7px #000000, 5px 0px 10px -7px #000000,
+  box-shadow: -5px 0px 10px -7px black, 5px 0px 10px -7px black,
     5px 5px 15px 5px rgba(0, 0, 0, 0);
 `;
 
