@@ -1,9 +1,9 @@
-import Container from '../Container/Container';
+import ContainerApp from './Container/Container';
 
 export const App = () => {
   return (
     <div className='App'>
-    <Container/>
+    <ContainerApp/>
     </div>
   );
 };
