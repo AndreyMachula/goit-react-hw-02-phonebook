@@ -54,8 +54,9 @@ export const ListItem = styled.li`
 
 
 export const Button = styled.button`
-  padding: 5px 10px 5px 30px;
-  background-color: transparent;
+  padding: 5px 10px 5px 10px;
+  background-color: darkgray;
+  border-radius: 5px;
   color: white;
   border: none;
   text-shadow: 0 0 5px white;
